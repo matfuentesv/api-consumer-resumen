@@ -1,0 +1,21 @@
+[ {
+  "pacienteId" : 2,
+  "frecuenciaCardiaca" : 10.0,
+  "presionArterial" : 10.0,
+  "nivelOxigeno" : 10.0
+}, {
+  "pacienteId" : 1,
+  "frecuenciaCardiaca" : 10.0,
+  "presionArterial" : 10.0,
+  "nivelOxigeno" : 10.0
+}, {
+  "pacienteId" : 1,
+  "frecuenciaCardiaca" : 20.0,
+  "presionArterial" : 22.0,
+  "nivelOxigeno" : 24.0
+}, {
+  "pacienteId" : 2,
+  "frecuenciaCardiaca" : 30.0,
+  "presionArterial" : 35.0,
+  "nivelOxigeno" : 40.0
+} ]
