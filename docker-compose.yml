@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  api-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9099:9099"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    restart: always
