@@ -19,7 +19,7 @@ public class ProducerAlertResumenService {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    private static final String ARCHIVO_JSON = "archivos_json/historico.json";
+    private static final String ARCHIVO_JSON = "/archivos_json/historico.json";
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final List<VitalSigns> resumenes = new ArrayList<>();
 
